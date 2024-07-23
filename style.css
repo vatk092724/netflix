@@ -12,14 +12,24 @@
 }
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    box-sizing:content-box;
+}
+body{
+    background-image:url(background.jpg) ;
+    
 }
 
 .header{
-  background-image:url(background.jpg) ;
-  height:100vh ;
+  
+  height:auto ;
+  width:auto;
 background-repeat: no-repeat;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
+  opacity:4.64 ;
+  box-shadow:10px ;
+  display:inline-block;
+  
 
 
   
@@ -27,13 +37,18 @@ background-repeat: no-repeat;
   
 }
 .sign{
-width:110px ;
-height: 5px;
-padding:12px   ;
-font-size: smaller;
+    text-align: center;
+    width: 54px;
+    height: 22px;
+    padding: 4px;
+    border-radius: 4px;
+    bottom: 28px;
+  
 
+
+    margin: -5em 23em;
 }
-.seperation{background-color:black ;
+.seperation{background-color:rgba(60, 58, 58, 0.194) ;
 height:7px  ;}
 .logo {
 width: 200px;
@@ -44,8 +59,8 @@ display:flex;
 }
 .language {
 
-padding: 6px 36px;
-margin: 8em;
+padding: 16px 40px;
+margin: 0em 42em;
 background-color: black;
 color: white;
 border: 1px white;
@@ -55,7 +70,7 @@ float: right;
 }
 button {
 background-color:#FF0000;
-padding:10px 5px 2px 10px ;
+padding:8px 11px 34px 7px;
 
 color: white;
 border-radius:3px  ;
@@ -69,6 +84,7 @@ color:white ;
 text-align: center;
 align-self: center;
 display:inline;
+background-attachment: fixed;
 
 
 
@@ -102,7 +118,7 @@ h3{
     background-color:transparent ;
     color:white ;
     display: flex;
-    margin-left:300px  ;
+    margin-left:313px;
     gap:10px ;}
 
 
@@ -118,14 +134,14 @@ font-size:x-large;}
     background-color: black;
     color:white ;
     text-align:left ;
-    padding-top:200px  ;
+    padding-top:175px;
     padding-left:198px  ;
-    font-size:48px  ;
+    font-size:48px;
     background-color: black;
-   
-    border-top:1px solid white;
-    border-bottom:1px solid white ;
-    height:50vh ;
+    background-attachment: fixed;
+    border-top:7px solid rgba(114, 114, 114, 0.279);
+    border-bottom:7px solid rgba(114,114, 144, 0.279) ;
+    height:70vh;
 }
 .one{margin:16px  ;
     font-family:Arial, Helvetica, sans-serif ;
@@ -136,23 +152,40 @@ align-self:center;
 text-align: left;
 font-weight: 100;
 
+
 }
 .three{margin:18px  ;
     text-align: right;
     font-weight: 900;
-    padding-right:400px ;
+    padding-right:556px;
+padding-bottom: 4px;
 }
 
 .four{font-size:24px;
     font-weight: 100;
-    padding-right:400px ;
+    padding-right:551px;
+padding-bottom: 157px;
 }
+.five{margin:16px  ;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+}
+
+.six{
+
+    font-size:24px;
+    font-weight: 900;
+    padding-right:796px;
+padding-bottom: 20px;
+}
+
+
 
 
 .box{
     display:inline-flex;
-    width:89vw ;
-    
+    width:100vw;
+    background-attachment: fixed;
    
     
 }
@@ -161,8 +194,8 @@ font-weight: 100;
     display:flex;
     float: right;
     position: relative;
-    width:400px ;
-    height:300px ;
+    width:580px ;
+    height:476px ;
     z-index:1; 
     
 }
@@ -171,8 +204,8 @@ font-weight: 100;
     /* margin-left: -488px; */
     margin-top: 50px;
     margin-left: 50px;
-    width: 300px;
-    height: 200px;
+    width: 510px;
+    height: 400px;
     position: absolute;
 }
 .box1{
@@ -183,18 +216,19 @@ font-weight: 100;
     padding-top:220px  ;
     font-size:48px  ;
     font-family:Arial, Helvetica, sans-serif ;
-    border-top:1px solid white;
-    border-bottom:1px solid white ;
+    border-top:7px solid rgba(114, 114, 114, 0.279);
+    border-bottom:7px solid rgba(114,114, 144, 0.279) ;
     height:60vh ;
+    background-attachment: fixed;
     
 
 }
 .st{
-margin-top:-18%;
-margin-left:14% ;
+margin-top:-28%;
+margin-left:4%;
     float: left;
     height:100px ;
-    width: 100px ;
+    width: 100px;
     position: absolute;
     }
 
@@ -208,10 +242,12 @@ margin-left:14% ;
         font-size:48px  ;
         font-family:Arial, Helvetica, sans-serif ;
         font-weight:900;
-        border-top:1px solid white;
-        border-bottom:1px solid white ;
-        height:50vh ;}
-        .seperation{background-color:black ;
+        border-top:7px solid rgba(114, 114, 114, 0.279);
+    border-bottom:7px solid rgba(114,114, 144, 0.279) ;
+        height:50vh ;
+    background-attachment: fixed;}
+
+        .seperation{background-color:rgba(0, 0, 0, 0) ;
             height:7px  ;}
 
         .fandq{
@@ -220,20 +256,21 @@ margin-left:14% ;
             color:white ;
             padding-top:50px  ;
             font-size:20px  ;
+            border-top:7px solid rgba(114, 114, 114, 0.279);
+            border-bottom:7px solid rgba(114,114, 144, 0.279) ;
             font-family:Arial, Helvetica, sans-serif ;
-            border-top:1px solid white;
-            border-bottom:1px solid white ;
-            height:85vh ;
+            height:110vh;
         
 
         }
         .five{text-align: center;
         font-weight: 900;
-        font-size:48px  ;}
+        font-size:48px  ;
+padding-right: 1199px;
+}
         .bx{
             color:white ;
             background-color:rgba(121, 108, 108, 0.42);
-            border:1px solid ;
             padding:24px;
             margin:6px 10px 1px 450px;
             align-items:center; 
@@ -247,7 +284,7 @@ margin-left:14% ;
         .bx:hover{
             background-color:rgba(128, 128, 128, 0.532);
             cursor: pointer;
-            transition: all 0.8s ;
+            transition: all 0.5s ;
 
         }
         .tv2{
@@ -296,17 +333,18 @@ margin-left:14% ;
 
 
   }    
-  .seperation{background-color:black ;
-    height:7px  ;}  
+ 
 
     .footer{
+        border-top:7px solid rgba(114, 114, 114, 0.279);
+    border-bottom:7px solid rgba(114,114, 144, 0.279) ;
         text-align: left;
         font-size:14px ;
         background-color: black;
         padding:100px 508px  0px 10px;
         height:50vh ;
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 
 
     }
@@ -320,5 +358,20 @@ margin-left:14% ;
         ;
         }
 
-    a{color:rgba(255, 255, 255, 0.497) ;}    
+    a{color:rgba(255, 255, 255, 0.497) ;}
+    
+    .list2{
+      padding:50px  ;
+
+    }
+    .list3{
+
+    padding:50px  ;
+
+
+    }
+    .list4{
+        padding:50px ;
+    }
+        
 
