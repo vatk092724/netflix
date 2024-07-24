@@ -17,6 +17,10 @@
 }
 body{
     background-image:url(background.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     
 }
 
@@ -37,16 +41,15 @@ background-repeat: no-repeat;
   
 }
 .sign{
+    
     text-align: center;
-    width: 54px;
-    height: 22px;
+    width:2.813vw;
+    height: 2.2vh;
     padding: 4px;
     border-radius: 4px;
     bottom: 28px;
-  
-
-
-    margin: -5em 23em;
+    z-index: 1;
+   margin: -5em 23em;
 }
 .seperation{background-color:rgba(60, 58, 58, 0.194) ;
 height:7px  ;}
@@ -66,6 +69,7 @@ color: white;
 border: 1px white;
 display:flex;
 float: right;
+z-index:1; 
 ;
 }
 button {
@@ -85,6 +89,7 @@ text-align: center;
 align-self: center;
 display:inline;
 background-attachment: fixed;
+                                                                                 
 
 
 
@@ -178,6 +183,21 @@ padding-bottom: 157px;
     padding-right:796px;
 padding-bottom: 20px;
 }
+.seven{margin:18px  ;
+    text-align: right;
+    font-weight: 900;
+    padding-right:556px;
+padding-bottom: 4px;
+
+}
+.eight{font-size:24px;
+    font-weight: 100;
+    padding-right:551px;
+padding-bottom: 157px;
+
+
+
+}
 
 
 
@@ -246,6 +266,26 @@ margin-left:4%;
     border-bottom:7px solid rgba(114,114, 144, 0.279) ;
         height:50vh ;
     background-attachment: fixed;}
+
+
+    .box3{
+        background-color: black;
+        position: relative;
+        color:white ;
+        text-align:right ;
+        padding-top:220px  ;
+        font-size:48px  ;
+        font-family:Arial, Helvetica, sans-serif ;
+        border-top:7px solid rgba(114, 114, 114, 0.279);
+        border-bottom:7px solid rgba(114,114, 144, 0.279) ;
+        height:60vh ;
+        background-attachment: fixed;
+
+
+
+
+
+    }
 
         .seperation{background-color:rgba(0, 0, 0, 0) ;
             height:7px  ;}
