@@ -1,0 +1,202 @@
+
+
+
+    @media (max-width:600px) {
+        .box{
+    
+            width:90vw;
+            height:810px;
+            display: flex;
+            padding:59px;
+            flex-wrap:wrap;
+            
+            }
+        .one{
+            
+            font-size:medium;
+            text-align:center; 
+            padding-left:100px; 
+            margin-bottom:-100px; 
+            
+            
+        }
+        .two{
+            
+            font-size:18px;
+            padding-right:0px;
+            padding-top:0px;
+            text-align:center; 
+            
+            
+        }
+        .tv{
+            margin-top:20px;
+              padding-right:10px;
+            width:364px;
+            height:270px;
+            
+        }
+        .video1{
+            margin-top:40px;
+            padding-right:10px;
+            width:264px;
+            height:170px;
+    
+            
+        }
+    
+    }
+    @media(max-width:600px)  {
+        .box1{
+            width:90vw;
+            height:810px;
+            display: flex;
+            padding:59px;
+            flex-wrap:wrap;
+            
+        }
+
+        .three{
+            text-align: center;
+              font-size:18px;
+            padding-left:90px
+            
+        }
+        .four{
+            font-size:14px;
+            width:200px ;
+            height:100px; 
+            text-align: center;
+            padding-left:120px;
+            margin-top:-210px;
+
+        }
+
+
+        
+        .st img{
+            margin-top:590px;
+                margin-left:30px;
+            width:200px; 
+            height:150px; 
+                
+
+
+
+        }
+    }
+        @media (max-width:600px)
+    {
+        .box2{
+            width:90vw;
+            height:810px;
+            display: flex;
+            padding:59px;
+            flex-wrap:wrap;
+            font-size:14px ;
+        }
+        .five{
+            font-size:14px ;
+            margin-left:95px;
+            
+
+
+        }
+        .six{
+            font-size:15px;
+            font-weight:100;  
+            text-align:center;
+           margin-bottom:499px;  
+            margin-left:105px; 
+        }
+        .seven{
+            text-align:center; 
+            padding-left:100px; 
+            margin-bottom:-100px; 
+
+
+        }
+        .eight{
+
+
+
+        }
+
+
+        .tv2 img{
+            margin-left:-800px; 
+            margin-top:600px; 
+            width:300px ;
+            height:300px;    
+        }
+        .tv2 video{
+             margin-left:-750px; 
+            margin-top:600px; 
+            width:198px ;
+            height:200px;  
+            
+            
+             
+        }
+        .st2 img{
+
+            margin-top:590px;
+            margin-left:30px;
+        width:200px; 
+        height:150px; 
+
+
+
+
+        }
+
+        @media (max-width:600px){
+
+            .box3{
+                width:90vw;
+                height:910px;
+                display: flex;
+                padding:59px;
+                flex-wrap:wrap;
+                font-size:16px ;
+ }
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
+    
+
+
+    
+
+
+
+
+
+
+
+    
