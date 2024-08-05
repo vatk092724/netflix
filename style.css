@@ -197,6 +197,12 @@ padding-bottom: 157px;
 
 
 
+
+}
+.nine{
+    font-size:24px ;
+    font-weight: 900 ;
+    text-align: center;
 }
 
 
@@ -204,7 +210,7 @@ padding-bottom: 157px;
 
 .box{
     display:inline-flex;
-    width:100vw;
+    width:88.5vw;
     background-attachment: fixed;
    
     
